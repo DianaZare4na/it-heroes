@@ -3,24 +3,19 @@ import { Link } from 'react-router-dom';
 import './main.css';
 import Logo from '../logo/Logo';
 import im from './img/bg2.png';
-//import mnu1 from './img/mnu1.png';
-//import mnu2 from './img/mnu2.png';
-//import mnu3 from './img/mnu3.png';
-//import mnu4 from './img/mnu4.png';
+
 function ItHeroes() {
 
    return (
 		<div className="row row-background-img">
-         <section className="col-7 section-header">
+         <section className="col-12 section-header">
             <Logo/>
             <h1 className="">IT-Heroes</h1>
             <p className="p-it"><span>IT-Heroes</span> &nbsp;-&nbsp; це &nbsp; воїни &nbsp; на &nbsp; варті &nbsp; твоєї &nbsp; інформаційної
             кібер-безпеки. Ми об'єднали спеціалістів та любителів з усіх куточків України.</p>
-            <p className="p-it"><span>Наша ціль:</span> &nbsp;надавати&nbsp; лише&nbsp; правдиву&nbsp; інформацію&nbsp; та
+            <p className="p-it p-it2"><span>Наша ціль:</span> &nbsp;надавати&nbsp; лише&nbsp; правдиву&nbsp; інформацію&nbsp; та
             позбавлятися від <span>фейків</span>.</p>
             <div className="join"><Link to="">Хочу до команди!</Link></div>
-         </section>
-         <section className="col-5">
             <div className="div-im">
                <img src={im}/>
             </div>

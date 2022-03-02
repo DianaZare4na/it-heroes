@@ -1,4 +1,4 @@
-//import './App.css';
+
 import './fonts/fonts.css';
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
@@ -9,7 +9,6 @@ function App() {
       
          <BrowserRouter>
             <div className="container-fluid App">
-               
                <ItHeroes/>
                <Routes>
                </Routes>

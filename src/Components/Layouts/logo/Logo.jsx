@@ -1,12 +1,12 @@
 import React from "react";
-import img from "./logo.png";
 import './logo.css';
 function Logo() {
 
    return (
      
-         <div className="">
-            <div className="div-logo"><img src={img}/></div>
+         <div className="div-logo-logo-h2">
+            <div className="div-logo"></div>
+            <h2 className="logo-h2">cyber heroes<br/>of ukraine</h2>
          </div>
 	);
 }
